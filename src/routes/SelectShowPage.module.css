@@ -1,0 +1,16 @@
+.showsList{
+    display: flex;
+    flex-direction: row;
+    grid-gap:1rem;
+    list-style: none;
+    margin-top: 2rem;
+}
+.show{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 1rem;
+    background-color: rgb(240, 231, 127);
+    border:rgb(174, 160, 9) 1px solid;
+}

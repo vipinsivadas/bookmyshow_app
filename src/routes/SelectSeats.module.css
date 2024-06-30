@@ -1,0 +1,32 @@
+.Tiers {
+    width: 100%;
+    max-width: 840px;
+    list-style: none;
+}
+
+.SelectSeatMain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 4rem;
+}
+
+.screenDiv {
+    height: 4px;
+    border: 1px solid skyblue;
+    max-width: 320px;
+    width: 100%;
+}
+.CheckoutButton{
+    color: white;
+    background-color: rgb(227, 61, 89);
+    text-decoration: none;
+    padding: 0.2rem;
+    border-radius: 4px;
+
+}
+.CheckoutButton:hover{
+    background-color: rgb(235, 138, 155);
+    transition: all 0.2s ease-in;
+}

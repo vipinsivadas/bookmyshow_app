@@ -1,0 +1,30 @@
+.Seat{
+    width: 28px;
+    height: 28px;
+    font-size: 12px;
+    color: gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(89, 229, 89);
+    border-radius: 4px;
+    transition: all 0.2s ease-in;
+}
+.Seat:hover{
+    background-color:rgb(89, 229, 89); 
+    color: white;
+    cursor: pointer;
+}
+.Selected{
+    background-color:rgb(29, 120, 29); 
+    color: white;
+    cursor: pointer;
+}
+.Booked{
+    background-color: rgb(179, 175, 175);
+}
+.Booked:hover{
+    background-color: rgb(179, 175, 175);
+    color: black;
+}
